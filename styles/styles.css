@@ -37,6 +37,24 @@ body {
     color: var(--negro);
 }
 
+/* Flecha flotante */
+
+.flechaFlotante {
+    position: fixed;
+    background-color: var(--negro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+}
+
+.flechaFlotante {
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
 /* header */
 
 .header {
@@ -227,24 +245,27 @@ body {
     width: 100%;
     padding-top: 6rem;
     background-color: var(--amarilloOscuro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
 
 .conocimientos__title {
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-.flechaFlotante {
-    position: fixed;
-    background-color: var(--negro);
+.conocimientos__container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.conocimientos__tecnologias {
     display: flex;
     justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    z-index: 999;
-    bottom: 0;
-    right: 0;
-}
-
-.flechaFlotante {
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    gap: 4rem;
 }
