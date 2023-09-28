@@ -24,8 +24,8 @@
         <ul class="navegacion__lista">
             <li><a href="#presentacion" class="navegacion__item">Sobre mi</a></li>
             <li><a href="#conocimientos" class="navegacion__item">Conocimientos</a></li>
-            <li><a href="#" class="navegacion__item">Proyectos</a></li>
-            <li><a href="#" class="navegacion__item">Contacto</a></li>
+            <li><a href="#proyectos" class="navegacion__item">Proyectos</a></li>
+            <li><a href="#contacto" class="navegacion__item">Contacto</a></li>
         </ul>
     </nav>
 </header>
@@ -94,11 +94,44 @@
             </div>
         </div>
     </section>
+    <section id="proyectos" class="proyectos">
+        <h2 class="proyectos__title">Proyectos</h2>
+        <div class="proyectos__contenedor">
+            <article class="proyectos__proyecto">
+                <a href="https://github.com/nahuealvez/Proyecto-Laboratorio-II-Grupo-3-C12023" target="_blank">
+                    <img src="/imgs/PJ-01.png" alt="Proyecto01">
+                </a>
+                <p>Sistema de gestión de venta de celulares - C++ y archivos</p>
+            </article>
+            <article class="proyectos__proyecto">
+                <a href="https://github.com/iniakig/TP-WinForm-GRUPO-2" target="_blank">
+                    <img src="/imgs/PJ-02.png" alt="Proyecto02">
+                </a>
+                <p>Sistema de gestión de artículos - C#, Winforms y SQL Server</p>
+            </article>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <h2 class="contacto__title">Contacto</h2>
+        <form action="" method="" class="contacto__formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+            <button type="submit" class="boton">Enviar</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">Desarrollado por NahueDev - 2023</p>
+    </footer>
 </main>
     
-<footer>
 
-</footer>
 
 </body>
 </html>
